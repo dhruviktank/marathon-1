@@ -134,7 +134,7 @@ a{
     transform: translate(-60%, 15px);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     body{
         padding: 0 10%;
     }
@@ -149,5 +149,13 @@ a{
     .text-2-container span{
         font-size: 14px;
         padding: 10px;
+    }
+}
+@media screen and (max-width: 425px) {
+    body{
+        padding: 0;
+    }
+    .bottom-container{
+        flex-direction: column-reverse;
     }
 }
