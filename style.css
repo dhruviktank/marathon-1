@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body{
-    padding: 0 20%;
+    padding: 0 20vw;
 }
 
 .top-container {
@@ -132,4 +132,22 @@ a{
     position: absolute;
     bottom: 0;
     transform: translate(-60%, 15px);
+}
+
+@media screen and (max-width: 720px) {
+    body{
+        padding: 0 10%;
+    }
+    .text-1-container {
+        border-radius: 35px 0 35px 0;
+        padding: 10px;
+    }
+    
+    .text-1-container span {
+        font-size: 1.5rem;
+    }
+    .text-2-container span{
+        font-size: 14px;
+        padding: 10px;
+    }
 }
